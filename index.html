@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Maanya Tyagi — AI/ML Engineer, Researcher, Founder</title>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:wght@400;600&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#070b16;--ch:#121826;--tx:#e6edf6;--mu:#93a3b8;--cy:#2fe6d8;--vi:#8b7cf6;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:64px}
+body{margin:0;background:var(--bg);color:var(--tx);font:16px/1.6 Inter,system-ui,sans-serif}
+#gl{position:fixed;inset:0;z-index:0;background:radial-gradient(circle at 50% 40%,#0f1b33,#070b16 70%)}
+nav{position:fixed;top:env(safe-area-inset-top,0px);left:0;right:0;z-index:5;display:flex;gap:14px;align-items:center;padding:12px 20px;background:rgba(7,11,22,.72);backdrop-filter:blur(8px);overflow-x:auto;white-space:nowrap}
+nav a{color:var(--mu);text-decoration:none;font-size:14px}nav a:hover,nav a:focus-visible{color:var(--cy)}
+nav b{font-family:Spectral,serif;color:var(--tx);margin-right:auto}
+main{position:relative;z-index:2}
+section{min-height:100vh;padding:96px 6vw 48px;max-width:980px}
+h1,h2{font-family:Spectral,serif;font-weight:600;line-height:1.15}
+h1{font-size:clamp(40px,8vw,84px);margin:0 0 12px}h2{font-size:clamp(28px,4vw,44px);margin:0 0 20px}
+.sub{color:var(--cy);font-size:clamp(16px,2vw,20px)}
+.card{background:rgba(18,24,38,.82);border:1px solid #243049;border-radius:10px;padding:16px 18px;margin:0 0 12px}
+.card h3{margin:0 0 4px;font-size:17px}.card p{margin:4px 0;color:var(--mu);font-size:15px}
+.tag{display:inline-block;border:1px solid #2b3a58;color:var(--cy);border-radius:99px;padding:1px 10px;font-size:12px;margin:2px 4px 2px 0}
+.tag.v{color:var(--vi);border-color:#463f86}
+.btn{display:inline-block;margin:6px 8px 6px 0;padding:10px 18px;border-radius:8px;border:1px solid var(--cy);color:var(--cy);text-decoration:none;background:transparent;font:inherit;cursor:pointer}
+.btn:hover,.btn:focus-visible{background:var(--cy);color:#062;outline:none}
+.note{font-size:13px;color:var(--mu);border-left:2px solid var(--vi);padding-left:10px;margin:14px 0}
+input{width:100%;padding:10px 12px;border-radius:8px;border:1px solid #2b3a58;background:#0d1424;color:var(--tx);font:inherit;margin-bottom:12px}
+.ph{width:140px;height:170px;border:1px dashed #3a4a6c;border-radius:10px;display:grid;place-items:center;text-align:center;font-size:12px;color:var(--mu);padding:8px;margin-bottom:14px}
+.tl{border-left:2px solid #243049;padding-left:16px}.tl .card{position:relative}
+.tl .card:before{content:"";position:absolute;left:-24px;top:20px;width:12px;height:12px;border-radius:50%;background:var(--cy)}
+.cap{position:fixed;right:14px;bottom:calc(14px + env(safe-area-inset-bottom,0px));z-index:5;font-size:12px;color:var(--mu);background:rgba(7,11,22,.8);padding:6px 10px;border-radius:6px;max-width:260px}
+.end{min-height:140vh}
+a:focus-visible,input:focus-visible{outline:2px solid var(--cy);outline-offset:2px}
+</style></head><body>
+<canvas id="gl" aria-hidden="true"></canvas>
+<div class="cap" id="cap" aria-live="polite">Simulated neural scene: procedurally generated, not measured data.</div>
+<nav aria-label="Main"><b>Maanya Tyagi</b><a href="#about">About</a><a href="#education">Education</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#research">Research</a><a href="#skills">Skills</a><a href="#awards">Awards</a><a href="#contact">Contact</a></nav>
+<main>
+<section id="top"><h1>Maanya Tyagi</h1><p class="sub">AI/ML Engineer | Researcher | Founder | Aspiring Computational Neuroscience Researcher</p>
+<p style="max-width:56ch;color:var(--mu)">Computer Science student specializing in Data Science, building AI, robotics and interdisciplinary research, and moving toward computational neuroscience.</p>
+<a class="btn" href="#research">Read the research</a><a class="btn" href="#contact">Get in touch</a>
+<p class="note">Resume PDF: not linked yet. The resume file was not attached to this chat, so no download button is shown rather than a dead one.</p></section>
+
+<section id="about"><h2>About</h2>
+<div class="ph" role="img" aria-label="Photo placeholder">Add portrait here (replace this box with an img tag)</div>
+<div class="card"><p style="color:var(--tx)">I am a Computer Science and Engineering student specializing in Data Science at SRM Institute of Science &amp; Technology, Ghaziabad. My interests span AI, machine learning, deep learning, computer vision, robotics, mathematical modeling and interdisciplinary research. As Founder of MaVionix India Private Limited, I work on AI-driven solutions, automation and engineering innovation.</p></div>
+<div class="card"><h3>Toward Computational Neuroscience</h3><p>A research interest and intended future direction, not completed neuroscience research. Areas I want to explore: computational neuroscience; mathematical models of neural systems; biological and artificial neural networks; machine learning and biological learning; computational models of cognition and neural activity; multimodal analysis and complex systems.</p></div></section>
+
+<section id="education"><h2>Education</h2><div class="tl" id="edu"></div></section>
+<section id="experience"><h2>Experience</h2><div id="exp"></div></section>
+<section id="projects"><h2>Projects</h2><div id="proj"></div></section>
+
+<section id="research"><h2>Research</h2>
+<label for="q" class="sub">Search papers, authors or venues</label><input id="q" type="search" placeholder="e.g. ACIFFS, redshift, Kukker">
+<div id="filters"></div><div id="pubs" aria-live="polite"></div>
+<h2 style="margin-top:36px">Journal manuscripts</h2><p class="note">Statuses are only those supplied. No journal names, DOIs or abstracts are listed.</p><div id="jr"></div>
+<h2 style="margin-top:36px">Design application</h2><div id="des"></div></section>
+
+<section id="skills"><h2>Technical skills</h2><div id="sk"></div></section>
+<section id="awards"><h2>Achievements</h2><div class="tl" id="aw"></div></section>
+
+<section id="contact" class="end"><h2>Contact</h2>
+<div class="card"><h3>Maanya Tyagi</h3><p>AI/ML Engineer | Researcher | Founder | Aspiring Computational Neuroscience Researcher</p>
+<a class="btn" href="mailto:maanyatyagi4@gmail.com">Email</a><a class="btn" href="https://www.linkedin.com/in/maanya-tyagi-mt05/" target="_blank" rel="noopener">LinkedIn</a><a class="btn" href="https://github.com/Maanya12345" target="_blank" rel="noopener">GitHub</a><a class="btn" href="https://www.maanya.in" target="_blank" rel="noopener">maanya.in</a></div>
+<p class="note">Scroll on: the camera pulls back from a simulated neuron, through a neural population, to a schematic brain and body.</p></section>
+</main>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script>
+const D={
+edu:[["B.Tech, Computer Science and Engineering (Data Science)","SRM Institute of Science & Technology, Ghaziabad","Expected 2028 | CGPA 8.5"],["Class XII, CBSE","CRPF Public School, Rohini, New Delhi","2023 | 82%"],["Class X, CBSE","CRPF Public School, Rohini, New Delhi","2021 | 95%"]],
+exp:[["Founder, MaVionix India Private Limited","July 2025–Present | Hybrid, Delhi",["Founded and lead a technology company delivering AI solutions, digital services, automation systems and innovative technology products.","Drive company vision, business strategy, product development and operational growth.","Manage client acquisition, stakeholder engagement, project execution and strategic partnerships.","Lead cross-functional teams across technology, marketing, design and business operations.","Spearheaded the development and positioning of ARAK-1, an AI-IoT industrial pipeline inspection robot.","Conduct market research and identify opportunities for service expansion and product innovation.","Represent the company at hackathons, innovation competitions, startup events and technology showcases."]]],
+proj:[["MaVionix Digital Services Platform","Founder & AI/ML Lead | 2025–Present",["Established a digital solutions platform offering AI automation, web development, branding and business transformation services.","Designed service offerings, customer engagement strategies and growth initiatives for startups and SMEs."]],["ARAK-1: Industrial Pipeline Inspection Robot","Founder & Project Lead | 2025",["Led the concept, strategy and market positioning of an AI-IoT quadruped robot for industrial pipeline monitoring and crack detection.","Coordinated product development, stakeholder communication and competition presentations.","Contributed to national-level innovation competitions, earning multiple recognitions."]],["SRM Campus Delivery System","ML Engineer | September 2024",["Contributed to the development of a real-time campus delivery solution during a hackathon.","Assisted in workflow design, user validation and solution presentation."]]],
+pubs:[["MaVionix: A Low-Power AI-Enabled Platform for Sustainable Digital Services in Rural Enterprises","Kukker, A., Bhardwaj, V., Tyagi, M., & Hudnurkar, S.","ICSTAIS 2026, Chandigarh University, Mohali, Punjab, India"],["Machine Learning-Based Optimization of Digital Logic Gate Networks for Power and Delay Reduction","Kukker, A., Bhardwaj, V., Tyagi, M., & Parihar, S.","ACIFFS 2026, Manipal University Jaipur, Rajasthan, India"],["Spectrastro: A Multi-Modal Database-Integrated Deep Learning Framework for Planetary Spectral Data Analysis","Bhardwaj, V., Kukker, A., Tyagi, M., & Hudnurkar, S.","ACIFFS 2026, Manipal University Jaipur, India"],["AI-Driven EDA Optimization for VLSI Design Automation Using Multi-Stage Deep Reinforcement Learning","Bhardwaj, V., Kukker, A., Tyagi, M., & Hudnurkar, S.","ICETT 2026, NIT Jalandhar"],["A Multi-Modal AI Framework for Safety Intelligence in Heavy-Duty Trucks Using Computer Vision, IoT Sensor Fusion, and Explainable AI","Bhardwaj, V., Kukker, A., Tyagi, M., & Parihar, S.","ICSIE 2026, PDRKV, in association with Manipal University College, Malaysia"],["Smart Obstacle Detection System for Visually Impaired Navigation Using Ultrasonic Sensing","Kukker, A., Bhardwaj, V., Tyagi, M., & Parihar, S.","ICSIE 2026, PDRKV, in association with Manipal University College, Malaysia"],["SensePath: A Low-Cost Multi-Sensor Assistive Cane with Real-Time Hazard Prioritization for the Visually Impaired","Kukker, A., Bhardwaj, V., Tyagi, M., & Parihar, S.","NCPTSD-26"],["MVediScan AI: A Deep Learning-Based Mobile Diagnostic Assistant for Multi-Modal Medical Analysis","Kukker, A., Bhardwaj, V., Tyagi, M., & Parihar, S.","NCPTSD-26"]],
+jr:[["Physics-Informed Multimodal Simulation Based Inference of Early Galaxy Formation Histories from JWST and ALMA.",""],["Calibrated Probabilistic Photometric Redshifts from Sky-Disjoint Validation of Gradient-Boosted Ensembles on SDSS DR17, with a Pantheon+SH0ES Late-Universe Baseline.","Under review"],["Selection-Aware Photometric Redshift Estimation with Deep Mixture-Density Networks and Conformal Calibration Using DESI DR1.","Under review"]],
+sk:{"Programming":"Python, C++, SQL","AI/ML":"Machine Learning, Deep Learning, Multimodal AI, NLP, Reinforcement Learning","Computer Vision":"OpenCV, Object Detection, Pose Estimation","Mathematics":"Linear Algebra, Probability, Statistics, Optimization","Data Science":"NumPy, Pandas, Scikit-learn, Data Preprocessing","Research":"Statistical Modeling, Model Evaluation, AI Research","Frameworks":"PyTorch, TensorFlow","Tools and DevOps":"Docker, Git, GitHub, Linux, Google Colab, Jupyter Notebook","Development":"HTML, CSS, React.js","Engineering":"Robotics, Sensor Integration, Intelligent Automation"},
+aw:["Winner, Thrust Tech Expo, IIT Hyderabad","Winner, Innovathon 1.0, University of Jammu","Appreciation Prize, Anveshana, New Delhi","Co-author of research work on AI-driven digital transformation and innovation","Multiple hackathon finalist for AI and technology solutions","District-Level Dance Champion","Certification: AI/ML, Great Learning"]};
+const $=id=>document.getElementById(id),E=s=>s.replace(/&/g,"&amp;").replace(/</g,"&lt;");
+const card=(t,m,l)=>`<div class="card"><h3>${E(t)}</h3><p>${E(m)}</p>${l?"<ul>"+l.map(x=>`<li>${E(x)}</li>`).join("")+"</ul>":""}</div>`;
+$("edu").innerHTML=D.edu.map(e=>card(e[0],e[1]+" | "+e[2])).join("");
+$("exp").innerHTML=D.exp.map(e=>card(e[0],e[1],e[2])).join("");
+$("proj").innerHTML=D.proj.map(e=>card(e[0],e[1],e[2])).join("")+'<p class="note">Screenshots, photos and GitHub links can be added per project once you have them.</p>';
+$("sk").innerHTML=Object.entries(D.sk).map(([k,v])=>`<div class="card"><h3>${k}</h3>${v.split(", ").map(s=>`<span class="tag">${E(s)}</span>`).join("")}</div>`).join("");
+$("aw").innerHTML=D.aw.map(a=>`<div class="card"><h3>${E(a)}</h3></div>`).join("");
+$("jr").innerHTML=D.jr.map(j=>`<div class="card"><h3>${E(j[0])}</h3><p>${j[1]?`<span class="tag v">${j[1]}</span>`:"Status not supplied"}</p></div>`).join("");
+$("des").innerHTML=card("Smart Robotic Pipeline Maintenance Device","Role: Co-applicant | Indian Design Application No. 498807-001 | Listed on the resume as accepted by CGPDTM, Government of India, 2026");
+let flt="All";const vs=["All",...new Set(D.pubs.map(p=>p[2].split(",")[0].split(" ")[0]))];
+function rp(){const q=$("q").value.toLowerCase();$("pubs").innerHTML=D.pubs.filter(p=>(flt=="All"||p[2].startsWith(flt))&&(p.join(" ").toLowerCase().includes(q))).map(p=>`<div class="card"><h3>“${E(p[0])}.”</h3><p>${E(p[1])}</p><p><span class="tag">Accepted and presented</span> ${E(p[2])}</p></div>`).join("")||"<p>No matches.</p>"}
+$("filters").innerHTML=vs.map(v=>`<button class="btn" data-v="${v}">${v}</button>`).join("");
+$("filters").onclick=e=>{if(e.target.dataset.v){flt=e.target.dataset.v;rp()}};$("q").oninput=rp;rp();
+
+// 3D scene (simulated, procedural)
+try{
+const cv=$("gl"),RM=matchMedia("(prefers-reduced-motion: reduce)").matches;
+const r=new THREE.WebGLRenderer({canvas:cv,antialias:true,alpha:true});r.setPixelRatio(Math.min(devicePixelRatio,1.5));
+const sc=new THREE.Scene(),cam=new THREE.PerspectiveCamera(60,1,.1,600);sc.fog=new THREE.FogExp2(0x070b16,.006);
+const rnd=(a,b)=>a+Math.random()*(b-a);
+function neuron(o,col,sc0){const P=[];const soma=new THREE.Mesh(new THREE.SphereGeometry(1.1*sc0,16,12),new THREE.MeshBasicMaterial({color:col,transparent:true,opacity:.85}));soma.position.copy(o);g.add(soma);
+function grow(p,d,l,k){if(k<0)return;const q=p.clone().addScaledVector(d,l);P.push(p.x,p.y,p.z,q.x,q.y,q.z);const n=k>2?2:(Math.random()<.6?2:1);for(let i=0;i<n;i++){const nd=d.clone().add(new THREE.Vector3(rnd(-.6,.6),rnd(-.6,.6),rnd(-.6,.6))).normalize();grow(q,nd,l*.78,k-1)}}
+for(let i=0;i<5;i++)grow(o,new THREE.Vector3(rnd(-1,1),rnd(-1,1),rnd(-1,1)).normalize(),3.2*sc0,4);
+const ax=new THREE.Vector3(rnd(-.3,.3),rnd(-.3,.3),-1).normalize();grow(o,ax,7*sc0,3);
+const gm=new THREE.BufferGeometry();gm.setAttribute("position",new THREE.Float32BufferAttribute(P,3));g.add(new THREE.LineSegments(gm,new THREE.LineBasicMaterial({color:col,transparent:true,opacity:.6})))}
+const g=new THREE.Group();sc.add(g);
+neuron(new THREE.Vector3(0,0,0),0x2fe6d8,1.4);
+for(let i=0;i<16;i++)neuron(new THREE.Vector3(rnd(-30,30),rnd(-18,18),rnd(-70,-20)),i%3?0x2fe6d8:0x8b7cf6,1);
+function pts(arr,c,s){const m=new THREE.BufferGeometry();m.setAttribute("position",new THREE.Float32BufferAttribute(arr,3));g.add(new THREE.Points(m,new THREE.PointsMaterial({color:c,size:s,transparent:true,opacity:.8})))}
+const B=[];for(let i=0;i<5000;i++){const u=Math.random()*6.283,v=Math.acos(rnd(-1,1)),w=1+.08*Math.sin(9*u)*Math.sin(7*v),x=Math.sin(v)*Math.cos(u)*22*w,y=Math.cos(v)*16*w,z=Math.sin(v)*Math.sin(u)*14*w;if(Math.abs(x)<1.2&&y>0)continue;B.push(x,y+0,z-150)}pts(B,0x8b7cf6,.35);
+const H=[];const add=(x,y,z)=>H.push(x+rnd(-.4,.4),y,z-230);
+for(let i=0;i<350;i++){const a=rnd(0,6.283);add(Math.cos(a)*5,rnd(14,22)+Math.sin(a)*0,0)}
+for(let y=-60;y<=12;y+=.7){add(rnd(-.3,.3),y,0)}
+for(let i=0;i<500;i++)add(rnd(-9,9),rnd(-28,10),rnd(-3,3));
+for(let t=0;t<60;t++){const s=t<30?-1:1,k=(t%30)/30;for(let j=0;j<8;j++)add(s*(9+k*20),10-k*10-j*.3,0)}
+for(let t=0;t<60;t++){const s=t<30?-1:1,k=(t%30)/30;for(let j=0;j<8;j++)add(s*(3+k*3),-28-k*34-j*.2,0)}
+pts(H,0x2fe6d8,.3);
+const K=[[0,0,8],[0,0,-8],[0,0,-14],[4,2,-30],[0,0,-70],[0,0,-118],[0,0,-170],[0,-8,-230],[0,-24,-262]];
+let tp=0,cp=0;const cap=$("cap");
+const lbl=["Simulated neuron: soma, dendrites and axon (procedural, not a measured reconstruction).","Simulated branching processes.","Simulated neural population.","Simulated neural population.","Schematic brain point cloud (stylized, not anatomical data).","Schematic brain point cloud (stylized, not anatomical data).","Schematic human body with spine (stylized).","Schematic human body with spine (stylized)."];
+function rs(){r.setSize(innerWidth,innerHeight,false);cam.aspect=innerWidth/innerHeight;cam.updateProjectionMatrix()}addEventListener("resize",rs);rs();
+function sp(){const m=document.documentElement.scrollHeight-innerHeight;tp=m>0?Math.min(1,scrollY/m):0}addEventListener("scroll",sp,{passive:true});sp();
+const tmp=new THREE.Vector3();
+function loop(t){cp+=(tp-cp)*(RM?1:.08);const f=cp*(K.length-1),i=Math.min(K.length-2,Math.floor(f)),a=f-i,e=a*a*(3-2*a);
+tmp.set(0,0,0);for(let c=0;c<3;c++)tmp.setComponent(c,K[i][c]+(K[i+1][c]-K[i][c])*e);cam.position.copy(tmp);cam.lookAt(tmp.x*.5,tmp.y*.5,tmp.z-20);
+if(!RM)cam.rotation.z=Math.sin(t*.0002)*.05;cap.textContent=lbl[Math.min(lbl.length-1,Math.floor(f))];
+r.render(sc,cam);requestAnimationFrame(loop)}loop(0);
+}catch(e){document.getElementById("cap").textContent="3D view unavailable (WebGL not supported). The portfolio content works without it."}
+</script></body></html>
